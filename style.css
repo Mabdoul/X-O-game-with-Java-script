@@ -1,0 +1,36 @@
+body{
+    background-image: url(istockphoto-1304087243-612x612\ \(1\).jpg);
+}
+.game{
+    width: 462px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+    margin: auto;
+}
+.title{
+    background-color: rgba(32, 182, 182, 0.945);
+    padding: 5px 0;
+    margin: 5px 0;
+
+}
+span{
+    color: yellow;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    float: left;
+    margin: 2px;
+    font-size: 105px;
+    font-weight: 500;
+    transition: 0.6s;
+
+}
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.6s;
+}
